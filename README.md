@@ -27,3 +27,8 @@ pip3 install adafruit-blinka
 pip3 install Adafruit-Blinka
 pip3 install adafruit-circuitpython-mcp4725
 then make amcp_4725.py file 
+connection dac use i2c pins jetson pin no 4-vcc(5V) pin 6:GND pin 3:sda pin 5:scl 
+
+servo.py:use to control steering connected using ftdi to uart pins to jetson . 
+
+mosfet.py:used to control actuator connecte to pin 29 of jetson 
