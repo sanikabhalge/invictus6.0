@@ -20,3 +20,10 @@ kuchkar(img):it return black lines only
 select_roi(img):to select a region of interest
 
 lane.py:we select a roi for video stream.camera capture and put bounding boxes .draws lines.
+
+dac.py: in this module used for throttle voltage change for this install sudo apt-get update
+sudo apt-get install -y python3-pip
+pip3 install adafruit-blinka
+pip3 install Adafruit-Blinka
+pip3 install adafruit-circuitpython-mcp4725
+then make amcp_4725.py file 
